@@ -1,31 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+    <!-- header-->
     <header>
         <h1> Aida Tavarez</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#">About Me</a>
-                </li>
-                <li>
-                    <a href="#">Work</a>
-                </li>
-                <li>
-                    <a href="#">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-            </ul>
+            <a href="#about-me">About Me</a>
+
+            <a href="#work">Work</a>
+
+            <a href="#contact-me">Contact Me</a>
+
+            <a href="#resume">Resume</a>
         </nav>
     </header>
 
+    <!-- Body -->
+    <section class="hero-banner">
+        <div>
+        
+            <img src="./assets/css/images/FullSizeRender.jpeg" alt="profile picture">
+
+            <h2>Check Out My Portfolio!</h2>
+   
+        </div>
+    </section>
+    <main class="page-wrapper">
+
+        <section id="about-me" class="page-section">
+            <h2>
+                About Me
+            </h2>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam deleniti cumque facilis ullam temporibus quisquam iusto asperiores, molestiae nobis ratione quis accusantium iste placeat odit minus neque, blanditiis voluptate quidem.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam deleniti cumque facilis ullam temporibus quisquam iusto asperiores, molestiae nobis ratione quis accusantium iste placeat odit minus neque, blanditiis voluptate quidem.
+                </p>
+            </div>
+        </section>
+
+        <section id="work" class="page-section">
+            <h2>My Work</h2>
+            <div class="flex-container">
+                <a href="https://github.com/aidyel/Run-Buddy.git">
+                    <div class="flex-item">
+                        <h3>Project1</h3>
+                        <span>HTML</span>
+                        <img src="./assets/css/images/Screen Shot 2022-02-04 at 10.50.26 AM.png" alt="">
+                    </div>
+                    
+                </a>
+                <a href="https://aidyel.github.io/refractor/">
+                    <div class="flex-item">
+                        <h3>Project2</h3>
+                        <span>Advance CSS</span>
+                        <img src="./assets/css/images/Screen Shot 2022-02-05 at 1.47.34 PM.png" alt="Code refactor website">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flex-item">
+                        <h3>Project3</h3>
+                        <img src="./assets/css/images/150.png" alt="">
+                        <span>coming soon</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flex-item">
+                        <h3>Project4</h3>
+                        <img src="./assets/css/images/400.png" alt="place holder">
+                        <span>coming soon</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flex-item">
+                        <h3>Project5</h3>
+                        <img src="./assets/css/images/300.png" alt="">
+                        <span>coming soon</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact-me" class="page-section">
+
+            <h2>Contact Me</h2>
+            <div class="contact">
+                <address>
+                    <a href="">475-434-3477</a>
+                    <a href="">aidayeli15@gmail.com</a>
+                    <a href="">https://github.com/aidyel</a>
+                    <a href="">linkin</a>
+                    <a href="">instagram @yxlii</a>
+                </address>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
