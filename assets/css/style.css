@@ -31,7 +31,7 @@ nav {
 }
 nav a  {
     text-decoration: none;
-    padding: 5px 10px ;
+    padding: 10px 15px ;
     color: #4339af;
     margin-right: 10px;
     background-repeat: no-repeat;
@@ -105,8 +105,8 @@ main {
     border-right: 4px solid rebeccapurple;
     font-size: 4rem;
     line-height: 1.1;
-
 }
+
 .page-section div {
     flex: 0 0 70%;
 
@@ -114,13 +114,14 @@ main {
 .page-section p {
     margin-bottom: 20px;
 }
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-.flex-item  img {
+.flex-item img {
     border: 5px solid rebeccapurple;
     background-color:rgba(146, 204, 206, .4);
     color: black;
@@ -153,10 +154,12 @@ main {
 .flex-item h3 {
     font-size: 1.5rem;
 
+
 }
 
-.flex-item img {
-    height: 300px;
+.image1 {
+    height: 15%;
+    width: 85%;
 }
 
 img {
@@ -189,3 +192,5 @@ img {
     display: inline-block;
 
 }
+
+
