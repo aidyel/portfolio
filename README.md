@@ -13,4 +13,4 @@ https://github.com/aidyel/portfolio
 ## Contribution
 Made with ❤️ by Aida Tavarez
 
-### ©️2019 Run Buddy, Inc, 
+
